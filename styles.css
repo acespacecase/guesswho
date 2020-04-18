@@ -1,0 +1,38 @@
+.tile {
+  height: 150px;
+  flex: 1;
+  margin: 10px;
+  border: 1pt solid blue;
+  background-color: navy;
+  background-size: 175px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.row {
+  display: flex;
+  border: 1pt solid yellow;
+}
+
+#grid {
+  width: 65%;
+  margin: 0 auto;
+}
+
+#my-person {
+  height: 150px;
+  width: 125px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+#my-person, .tile {
+  background-color: navy;
+  background-size: 175px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
